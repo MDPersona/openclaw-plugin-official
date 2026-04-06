@@ -1,0 +1,24 @@
+{
+  "id": "mdpersona",
+  "displayName": "MDPersona",
+  "description": "Sync your MDPersona preference profiles into OpenClaw automatically. Travel, dining, media, and communication preferences — decrypted locally and loaded into every session.",
+  "version": "1.0.0",
+  "author": {
+    "name": "MDPersona",
+    "url": "https://mdpersona.com"
+  },
+  "homepage": "https://mdpersona.com",
+  "repository": "https://github.com/mdpersona/openclaw-plugin-official",
+  "icon": "./icon.svg",
+  "categories": ["Productivity", "Personalization"],
+  "keywords": ["profiles", "preferences", "personalization", "sync", "privacy"],
+  "openclaw": {
+    "minVersion": "2026.3.22"
+  },
+  "enabledByDefault": true,
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

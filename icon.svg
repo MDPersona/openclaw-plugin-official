@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#0a0a0f"/>
+  <!-- Outer diamond — outline only -->
+  <polygon
+    points="256,68 444,256 256,444 68,256"
+    fill="none"
+    stroke="#c9a96e"
+    stroke-width="10"
+  />
+  <!-- Inner square — axis-aligned, solid fill -->
+  <rect x="191" y="191" width="130" height="130" fill="#c9a96e"/>
+</svg>

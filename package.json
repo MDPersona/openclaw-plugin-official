@@ -1,0 +1,52 @@
+{
+  "name": "openclaw-plugin-mdpersona",
+  "version": "1.0.0",
+  "description": "Sync your MDPersona preference profiles into OpenClaw automatically",
+  "type": "module",
+  "keywords": [
+    "openclaw",
+    "openclaw-plugin",
+    "mdpersona",
+    "profiles",
+    "preferences",
+    "personalization"
+  ],
+  "author": {
+    "name": "MDPersona",
+    "url": "https://mdpersona.com"
+  },
+  "license": "MIT",
+  "homepage": "https://mdpersona.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdpersona/openclaw-plugin-official.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mdpersona/openclaw-plugin/issues"
+  },
+  "openclaw": {
+    "extensions": ["./src/index.ts"]
+  },
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "openclaw.plugin.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.3.22"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
