@@ -28,7 +28,13 @@
     "id": "mdpersona",
     "extensions": [
       "./src/index.ts"
-    ]
+    ],
+    "compat": {
+      "pluginApi": ">=1.0.0"
+    },
+    "build": {
+      "openclawVersion": "2026.3.22"
+    }
   },
   "main": "./dist/index.js",
   "exports": {
