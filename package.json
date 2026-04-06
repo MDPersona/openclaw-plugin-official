@@ -25,6 +25,7 @@
     "url": "https://github.com/mdpersona/openclaw-plugin-official/issues"
   },
   "openclaw": {
+    "id": "mdpersona",
     "extensions": [
       "./src/index.ts"
     ]
