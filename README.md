@@ -5,7 +5,7 @@ MDPersona is a preference profile service that lets you define your personal tas
 ## Installation
 
 ```
-openclaw plugins install clawhub:openclaw-plugin-mdpersona
+openclaw plugins install mdpersona-plugin
 ```
 
 ## Setup
