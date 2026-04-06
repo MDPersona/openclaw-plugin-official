@@ -22,7 +22,7 @@
     "url": "git+https://github.com/mdpersona/openclaw-plugin-official.git"
   },
   "bugs": {
-    "url": "https://github.com/mdpersona/openclaw-plugin/issues"
+    "url": "https://github.com/mdpersona/openclaw-plugin-official/issues"
   },
   "openclaw": {
     "extensions": [
