@@ -1,6 +1,6 @@
 {
   "name": "openclaw-plugin-mdpersona",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sync your MDPersona preference profiles into OpenClaw automatically",
   "type": "module",
   "keywords": [
