@@ -34,6 +34,7 @@
     ".": "./dist/index.js"
   },
   "files": [
+    "src",
     "dist",
     "openclaw.plugin.json",
     "icon.svg",
