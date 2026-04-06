@@ -19,13 +19,15 @@
   "homepage": "https://mdpersona.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mdpersona/openclaw-plugin-official.git"
+    "url": "git+https://github.com/mdpersona/openclaw-plugin-official.git"
   },
   "bugs": {
     "url": "https://github.com/mdpersona/openclaw-plugin/issues"
   },
   "openclaw": {
-    "extensions": ["./src/index.ts"]
+    "extensions": [
+      "./src/index.ts"
+    ]
   },
   "main": "./dist/index.js",
   "exports": {
